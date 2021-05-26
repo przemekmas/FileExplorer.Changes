@@ -1,0 +1,16 @@
+﻿<Window x:Class="FileExplorer.Changes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileExplorer.Changes" 
+        xmlns:controls="clr-namespace:FileExplorer.Changes.Controls"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="File Explorer - Changes" 
+        MinHeight="400"
+        MinWidth="600"
+        Height="400" 
+        Width="650">
+    <controls:MainContents/>
+</Window>
